@@ -1,0 +1,8 @@
+//Arquivos que nao vao aparecer na barra do lado. (Alem de serem ignorados -.gitignore ao rodar, eles nao vao aparecer)
+{
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/*.pytest_cache": true
+    }
+}
